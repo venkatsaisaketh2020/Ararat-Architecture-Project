@@ -1,0 +1,63 @@
+.navBlock{
+    flex-basis: 15%;
+}
+
+.navBlock > article{
+    width: 80%;
+    height: inherit;
+    margin: auto;
+    display: flex;
+}
+
+.logoBlock{
+    flex-basis: 40%;
+}
+
+.logoBlock > h1{
+    font-size: 217%;
+    font-family: sans-serif;
+    position: fixed;
+    top: 33px;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.774)
+}
+
+.logoBlock > h2{
+    font-size: 95%;
+    font-family: sans-serif;
+    position: fixed;
+    top: 72px;
+    letter-spacing: 1.6px;
+    color: rgba(0, 0, 0, 0.31)
+}
+
+.menuBlock{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    gap: 70%;
+}
+
+.menuBlock > button{
+    position: fixed;
+    left: 80%;
+    top:  4%;        
+    padding: 18px 33px;
+    background-color: aliceblue;
+    border: 2px solid  black;
+    color: black;
+    border-radius: 3px;
+}
+
+.menuBlock > ul{
+    list-style: none;
+    display: flex;
+    position: fixed;
+    top: 7%;
+}
+
+.menuBlock > ul > li > a{
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px       
+}

@@ -1,0 +1,37 @@
+.homeBlock{
+    flex-basis: 85%;
+    background-image: url("https://images.pexels.com/photos/139207/pexels-photo-139207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.homeBlock > h2{
+    color: white;
+    position: fixed;
+    top: 375px;
+    left: 257px;
+    font-size: 60px;
+    letter-spacing: 14px;
+    font-family: sans-serif;    
+}
+
+.homeBlock > p{
+    color: white;
+    position: fixed;
+    top: 460px;
+    left: 380px;
+    font-size: 21px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+    
+.homeBlock > button{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.281);
+    position: fixed;
+    top: 546px;
+    left: 645px;
+    padding: 17px 37px;
+    border: 2px solid white;
+}
