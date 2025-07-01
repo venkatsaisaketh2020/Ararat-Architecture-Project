@@ -1,7 +1,6 @@
-
 import React from "react";
-import Home from "./Ararat Architecture/Home";
-import Navbar from "./Ararat Architecture/Navbar";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 
 const App = () => {
     return(
